@@ -1,0 +1,35 @@
+{
+  "name": "@franzzemen/bunyan-logger-adapter",
+  "version": "1.0.1",
+  "description": "Bunyan proxy implementation for @franzzemen/logger-adapter",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranzZemen/bunyan-logger-adapter.git"
+  },
+  "author": "Franz Zemen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FranzZemen/bunyan-logger-adapter/issues"
+  },
+  "homepage": "https://github.com/FranzZemen/bunyan-logger-adapter#readme",
+  "devDependencies": {
+    "@franzzemen/gulp-base": "^12.1.1",
+    "@franzzemen/logger-adapter": "^4.1.2",
+    "@franzzemen/npmu": "^2.0.17",
+    "@types/bunyan": "^1.8.8",
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^18.11.8",
+    "bunyan": "^1.8.15",
+    "chai": "^4.3.6",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^8.0.0",
+    "mocha": "^10.1.0",
+    "typescript": "^4.8.4"
+  }
+}

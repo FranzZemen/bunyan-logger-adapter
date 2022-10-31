@@ -1,0 +1,15 @@
+
+
+  bunyan-logger-adapter
+    bunyan-logger-adapter.test.ts
+      general tests
+{"name":"should test bunyan adapter","hostname":"Yorktown","pid":25208,"level":30,"msg":"Hello","time":"2022-10-30T23:34:04.324Z","v":0}
+        √ should test bunyan adapter
+{"name":"should test logger adapter, independent management, adapter set to debug, bunyan set to debug","hostname":"Yorktown","pid":25208,"level":20,"msg":"\u001b[36m2022-10-30T23:34:04.328 DEBUG: Hello World; appContext: Global; repo: bunyan-logger.adapter; sourceFile: bunyan-logger-adapter.test; method: should test logger adapter, independent management, adapter set to debug, bunyan set to debug; thread: Thread: 49720374-573a-4704-b2cb-1ccad879f057; requestId: Request: f6862f4e-c98f-450c-96c8-6a12ec47bb7a; logLevel: debug\u001b[0m","time":"2022-10-30T23:34:04.329Z","v":0}
+{"name":"should test logger adapter, independent management, adapter set to debug, bunyan set to debug","hostname":"Yorktown","pid":25208,"level":20,"appContext":"Global","sourceFile":"bunyan-logger-adapter.test","method":"should test logger adapter, independent management, adapter set to debug, bunyan set to debug","thread":"Thread: 49720374-573a-4704-b2cb-1ccad879f057","requestid":"Request: f6862f4e-c98f-450c-96c8-6a12ec47bb7a","logLevel":"debug","data":{"foo":"bar","jack":"jill"},"msg":"","time":"2022-10-30T23:34:04.330Z","v":0}
+{"name":"should test logger adapter, independent management, adapter set to debug, bunyan set to debug","hostname":"Yorktown","pid":25208,"level":30,"msg":"\u001b[32m2022-10-30T23:34:04.330 INFO: Farewell; appContext: Global; repo: bunyan-logger.adapter; sourceFile: bunyan-logger-adapter.test; method: should test logger adapter, independent management, adapter set to debug, bunyan set to debug; thread: Thread: 49720374-573a-4704-b2cb-1ccad879f057; requestId: Request: f6862f4e-c98f-450c-96c8-6a12ec47bb7a; logLevel: debug\u001b[0m","time":"2022-10-30T23:34:04.330Z","v":0}
+        √ should test logger adapter, independent management, adapter set to debug, bunyan set to debug
+
+
+  2 passing (14ms)
+

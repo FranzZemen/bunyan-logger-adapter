@@ -1,6 +1,6 @@
 {
   "name": "@franzzemen/bunyan-logger-adapter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Bunyan proxy implementation for @franzzemen/logger-adapter",
   "type": "module",
   "main": "index.js",
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/FranzZemen/bunyan-logger-adapter#readme",
   "devDependencies": {
     "@franzzemen/gulp-base": "^12.1.1",
-    "@franzzemen/logger-adapter": "^4.1.3",
+    "@franzzemen/logger-adapter": "^4.1.4",
     "@franzzemen/npmu": "^2.0.17",
     "@types/bunyan": "^1.8.8",
     "@types/chai": "^4.3.3",

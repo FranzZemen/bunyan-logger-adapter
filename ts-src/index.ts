@@ -19,6 +19,7 @@ export const bunyanBaseExecutionContext: LogExecutionContext = {
       level: AdapterLogLevel.info, // Test to see native log level management work
       hidePrefix: true, // No need to hide timestamp or severity
       colorize: false,
+      dataAsJson: false,
       formatOptions: {
         message: MessageFormatOption.Augment,
         attributes: AttributesFormatOption.Augment,
